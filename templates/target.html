@@ -1,0 +1,18 @@
+<!doctype html>
+<title>Deathstar</title>
+<body bgcolor="black">
+<div style="color: #e4e4e4;
+    text-align:  center;
+    height: 90px;
+    vertical-align:  middle;">
+  <h1>Deathstar control panel</h1>
+
+<p>Current target:</p>
+{% if target %}
+<p>{{ target }}</p>
+{% else %}
+<p>Planet Earth</p>
+{% endif %}
+
+</div>
+<body>
